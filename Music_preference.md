@@ -197,3 +197,33 @@ Each option was encoded as a separate binary variable.
 - `new_music_discovery_source_self_search` = Searching on my own, such as by genre
 - `new_music_discovery_source_other` = Other
 
+### `tipi_*`
+
+**Original scale:** Ten-Item Personality Inventory (TIPI)
+
+**Original question:** I see myself as:
+
+**Coding:**
+
+All TIPI items were rated on a 7-point Likert scale.
+
+- 1 = Disagree strongly
+- 2 = Disagree moderately
+- 3 = Disagree a little
+- 4 = Neither agree nor disagree
+- 5 = Agree a little
+- 6 = Agree moderately
+- 7 = Agree strongly
+
+**Variables:**
+
+- `tipi_extraverted_enthusiastic` = Extraverted, enthusiastic
+- `tipi_critical_quarrelsome` = Critical, quarrelsome
+- `tipi_dependable_self_disciplined` = Dependable, self-disciplined
+- `tipi_anxious_easily_upset` = Anxious, easily upset
+- `tipi_open_complex` = Open to new experiences, complex
+- `tipi_reserved_quiet` = Reserved, quiet
+- `tipi_sympathetic_warm` = Sympathetic, warm
+- `tipi_disorganized_careless` = Disorganized, careless
+- `tipi_calm_emotionally_stable` = Calm, emotionally stable
+- `tipi_conventional_uncreative` = Conventional, uncreative
