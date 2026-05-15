@@ -9,27 +9,27 @@ The complete release will include anonymized metadata, music links with timestam
 Dataset /
 ├─ README.md
 │
-├─ Metadata.csv  # spotify_id, track_title, artist_name, album_name, duration_m_s, 
-│               genres
+├─ Metadata.csv  # spotify_id, track_title, artist_name, album_name, duration_m_s, genres
+│               
 │
 ├─ Audio_Features.csv  #spotify_id, acousticness, danceability, energy,
-│                   instrumentalness, liveness, loudness, speechiness, tempo,
-│                   valence.
+│                   instrumentalness, liveness, loudness, speechiness, tempo, valence.
+│                  
 │
 ├─ Physiological_signals
 │  └─ User_id (User1 ~ User20)
 │    ├─ bvp
-│     │  └─song_index_id.csv (song_index_0.csv ~ song_index_20.csv)
+│    │  └─song_index_id.csv (song_index_0.csv ~ song_index_20.csv)
 │    ├─ eda
-│     │  └─song_index_id.csv (song_index_0.csv ~ song_index_20.csv)
+│    │  └─song_index_id.csv (song_index_0.csv ~ song_index_20.csv)
 │    └─ temp
 │        └─song_index_id.csv (song_index_0.csv ~ song_index_20.csv)
 │
-├─ Listener_level_profiles.csv  # user_id, age, gender, music preferences,
-│                           personality traits (TIPI)​​
+├─ Listener_level_profiles.csv  # user_id, age, gender, music preferences, personality traits (TIPI)
+│                           ​​
 │ 
-├─Emotion_Annotations.csv  # user_id, song_index, spotify_id, Arousal, Valence,
-│                         GEMS-9
+├─Emotion_Annotations.csv  # user_id, song_index, spotify_id, Arousal, Valence, GEMS-9
+│                         
 │
 └─Music_Reference.csv # spotify_id, link, start_timestamp_m_s, end_timestamp_m_s
 ```
