@@ -5,6 +5,7 @@ This anonymized repository provides review-time resources associated with the su
 Due to double-anonymous review and copyright/privacy considerations, the full dataset release is currently under preparation. 
 The complete release will include anonymized metadata, music links with timestamps, emotion annotations, physiological signal data, and listener-level profile data.
 
+```text
 Dataset /
 ├─ README.md
 │
@@ -31,3 +32,4 @@ Dataset /
 │                         GEMS-9
 │
 └─Music_Reference.csv # spotify_id, link, start_timestamp_m_s, end_timestamp_m_s
+```
